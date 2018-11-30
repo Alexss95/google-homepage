@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin: 1 solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo{
+    height: 40px;
+    width: 120px;
+    margin: 25px 10px 10px 13px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inputBar{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 12px;
+    margin: 20px 5px 20px 10px;
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+    width: 600px;
+    
+}
+
+.inputBar input{
+    width: 550px;
+    border: none;                                     
+    display: inline-block;
+    margin-top: 7px;
+}
+
+header .inputBar img{
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin: 3px 3px 0 0;
+}
+
+.userButtons{
+    width: 400px;
+    float: right;
+    text-align: right; 
+    margin: 10px 25px 0 0;
+}
+
+header .userButtons img{
+    width: 20px;
+    height: 20px;
+    margin: 4px 8px;
+}
+
+.userButtons li{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+header li{
+    font-size: 13px;
+    color: #808080;
+}
+
+header .options{
+    position: relative;
+    left: 150px;
+    width: 450px;
+    display: inline-block;
+}
+
+header .options li{
+    display: inline-block;
+    margin: 0 12px;
+}
+
+header .options2{
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    left: 190px;
+}
+
+header .options2 li{
+    display: inline-block;
+    margin: 0 13px;
+}
+
+/*Aqui comienza el cuerpo de la pagina*/
+
+.cuerpo{
+    margin: 0 0 0 170px;
+}
+
+.results{
+    color: #808080;
+    font-size: small;
+    padding: 0;
+    margin: 15px 0px 10px -5px;
+}
+
+.cuerpo .link{
+    margin: 30px 0 20px 0;
+    width: 50%;
+}
+
+.cuerpo .link .firstLink{
+    color: blue;
+    font-size: 18px;
+}
+
+.cuerpo .link .secondLink{
+    color: #006621;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.cuerpo .link p{
+    padding: 2px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    color: #545454;
+    font-size: 15px;
+}
+
+/* Seccion de freguntas frecuentes */
+
+.preguntasFrecuentes{
+    width: 50%;
+    border: 1px solid #e4e3e3;
+    border-radius: 8px;
+}
+
+.preguntasFrecuentes .title{
+    padding: 10px 0 10px 18px;
+    border-top: none;
+    font-size: 18px;
+    color: #808080;
+}
+
+.preguntasFrecuentes p{
+    padding: 7px 0;
+    border-top: 1px solid #c0c0c0;
+    padding-left: 20px;
+    color: #222;
+}
+
+.preguntasFrecuentes p img{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 10px;
+}
+
+/* Seccion de fotos */
+
+.linkDeImagenes{
+    width: 61%;
+}
+
+.linkDeImagenes p{
+    color: blue;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.linkDeImagenes li{
+    display: inline-block;
+}
+
+.linkDeImagenes img{
+    height: 100px;
+}
+
+.linkDeImagenes .arrowRight{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.linkDeImagenes .down{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.linkDeImagenes .downLeft{
+    padding: 0;
+    margin: 0 10px;
+}
+
+.linkDeImagenes .downRight{
+    float: right;
+    color: #808080;
+    margin-right: 15px;
+}
+
+/* Aqui empieza el fin de la pagina */
+
+.opcionesAbajo p{
+    font-size: 18px;
+    color: #222;
+}
+
+.opcionesAbajo ul{
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.opcionesAbajo li{
+    padding: 4px 0;
+    color: blue;
+}
+
+.paginasGoogle{
+    margin: 20px 0 20px 100px;
+    width: 320px;
+}
+
+.paginasGoogle img{
+    width: 350px;
+    display: block;
+}
+
+.paginasGoogle ul{
+    display: inline-block;
+    margin-left: 43px;
+}
+
+.paginasGoogle li{
+    display: inline;
+    margin: 0 8px 0 3px;
+}
+
+.paginasGoogle button{
+    border: none;
+    color: blue;
+}
+
+.paginasGoogle .primero{
+    color: #111S;
+}
+
+.paginasGoogle .next{
+    display: inline-block;
+    float: right;
+}
+
+/* Footer */
+
+footer{
+    background-color: #f2f2f2;
+    color: #777;
+    font-size: 14px;
+}
+
+footer div{
+    padding: 13px 0px 13px 140px;
+    border-top: 1px solid #ddd;
+}
+
+footer div p{
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+footer div strong{
+    font-size: bold;
+    color: #545454;
+}
+
+footer ul{
+    padding: 0 0 0 10px;
+    font-size: 13px;
+}
+
+footer li{
+    display: inline;
+    padding: 0 10px;
+}
